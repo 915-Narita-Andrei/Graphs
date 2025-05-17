@@ -1,0 +1,21 @@
+<div class="root">
+  <div>
+    <input [(ngModel)]="nodeInput1" placeholder="Node Label (e.g. A)" />
+    <button (click)="runBfs()">Run BFS</button>
+  </div>
+
+  <div>
+    <input [(ngModel)]="nodeInput2" placeholder="Node Label (e.g. B)" />
+    <button (click)="runDfs()">Run DFS</button>
+  </div>
+
+  <button (click)="reset()">Reset</button>
+
+<!--  <div>-->
+<!--    <input [(ngModel)]="edgeInputFrom" placeholder="From (e.g. A)" />-->
+<!--    <input [(ngModel)]="edgeInputTo" placeholder="To (e.g. B)" />-->
+<!--    <button (click)="runDijkstra()">Run Dijkstra</button>-->
+<!--  </div>-->
+
+  <app-graph-editor></app-graph-editor>
+</div>

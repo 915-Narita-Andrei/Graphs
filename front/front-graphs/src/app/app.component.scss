@@ -1,0 +1,50 @@
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.controls div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  width: 160px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+button:active {
+  background-color: #0d47a1;
+}

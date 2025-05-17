@@ -1,0 +1,13 @@
+canvas {
+  border: 1px solid #333;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Center horizontally */
+}
+
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
